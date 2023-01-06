@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   border-top: 1px solid #e5e5e5;
-  padding: 40px 0px;
+  padding: 40px 0px 10px 0px;
 
   .footer-section {
     display: flex;
