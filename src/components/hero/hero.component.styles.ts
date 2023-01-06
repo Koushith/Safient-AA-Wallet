@@ -8,7 +8,7 @@ export const HeroSectionContainer = styled.header`
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-
+  height: 100vh;
   .navbar {
     padding-top: 30px;
     padding-bottom: 80px;
