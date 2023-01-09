@@ -3,14 +3,14 @@ import { SecondaryHeading } from "../primitives/text/text.component";
 import { ConteintHeading } from "../primitives/text/text.component.styles";
 
 export const FaqContainer = styled.section`
-  margin-bottom: 120px;
+  margin-bottom: 80px;
   padding: 20px;
+  @media (max-width: 375px) {
+    margin-bottom: 40px;
+  }
 `;
 
 export const GridContainer = styled.div`
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 280px; */
   display: flex;
   flex-wrap: wrap;
   margin-top: 56px;
@@ -26,13 +26,15 @@ export const GridContainer = styled.div`
   }
 
   @media (max-width: 375px) {
-    /* padding: 0 2rem; */
-    margin-top: 30px;
+    margin-top: 40px;
   }
 `;
 
 export const FaqHeading = styled(ConteintHeading)`
   margin-bottom: 20px;
+  @media (max-width: 375px) {
+    font-size: 2rem;
+  }
 `;
 
 export const FAQWrapper = styled.div`

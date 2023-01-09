@@ -106,6 +106,7 @@ export const HeroSectionContainer = styled.header`
     .cta-container {
       flex-direction: column;
       padding: 2rem !important;
+      margin-top: 120px !important;
     }
     .hero-image {
       padding: 4rem;

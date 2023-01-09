@@ -45,6 +45,7 @@ export const FeaturesSectionContainer = styled.section`
 
   @media (max-width: 375px) {
     padding: 0 2rem;
+    margin-top: 60px;
   }
 `;
 

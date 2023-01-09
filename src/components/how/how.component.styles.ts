@@ -18,7 +18,6 @@ export const HowConatiner = styled.section`
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 3.2rem;
-    /* or 178% */
     margin-top: 2.5rem;
     color: #a3a3a3;
   }
@@ -94,7 +93,6 @@ export const StepsContainer = styled.div`
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 22px;
-    /* identical to box height */
     margin-top: 2.1rem;
     color: #ffffff;
   }
@@ -103,7 +101,6 @@ export const StepsContainer = styled.div`
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 32px;
-    /* or 200% */
     margin-top: 1rem;
     color: #a3a3a3;
   }
