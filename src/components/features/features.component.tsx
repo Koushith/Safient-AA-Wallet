@@ -5,11 +5,49 @@ import {
   FeaturesSectionContainer,
   FeaturesWrapper,
 } from "./features.component.styles";
-import Mobile from "../../assets/icons/mobile.svg";
+
+const features = [
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+  {
+    icon: require("../../assets/icons/mobile.svg").default,
+    heading: "Invest any amount",
+    description:
+      "Whether it’s $1 or $1,000,000, we can put your money to work for you.",
+  },
+];
 
 export const FeaturesSection = () => {
   return (
-    <FeaturesSectionContainer>
+    <FeaturesSectionContainer id="features">
       <Container>
         <h2 className="heading">Now is the time to build your portfolio.</h2>
         <p className="sub-heading">
@@ -19,59 +57,13 @@ export const FeaturesSection = () => {
         </p>
 
         <FeaturesWrapper>
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
-
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
-
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
-
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
-
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
-
-          <Features>
-            <img src={Mobile} alt="icon" width={"32px"} />
-            <h3>Invest any amount</h3>
-            <p>
-              Whether it’s $1 or $1,000,000, we can put your money to work for
-              you.
-            </p>
-          </Features>
+          {features.map((f, index) => (
+            <Features key={index}>
+              <img src={f.icon} alt="icon" width={"32px"} />
+              <h3>{f.heading}</h3>
+              <p>{f.description}</p>
+            </Features>
+          ))}
         </FeaturesWrapper>
       </Container>
     </FeaturesSectionContainer>

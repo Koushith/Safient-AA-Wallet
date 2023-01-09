@@ -12,7 +12,13 @@ export const CTASection = () => {
       <CTASubHeading>
         Join our Discord server to stay on top of our developments
       </CTASubHeading>
-      <Button>Join now</Button>
+      <Button
+        onClick={() => {
+          window.open("https://discord.com/invite/ptDKn9RyRB");
+        }}
+      >
+        Join now
+      </Button>
     </CTAContainer>
   );
 };

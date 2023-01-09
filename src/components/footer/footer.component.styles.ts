@@ -27,6 +27,29 @@ export const FooterContainer = styled.footer`
     margin-right: 30px;
     color: #334155;
   }
+  @media (max-width: 768px) {
+    padding: 2px;
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .footer-section {
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 `;
 
 export const QRCodeContainer = styled.div`
@@ -55,6 +78,14 @@ export const QRCodeContainer = styled.div`
     margin-top: 14px;
     color: #334155;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  @media (max-width: 375px) {
+    display: none;
+  }
 `;
 
 export const CopyRightContainer = styled.div`
@@ -69,5 +100,11 @@ export const CopyRightContainer = styled.div`
     /* identical to box height, or 171% */
 
     color: #334155;
+  }
+
+  @media (max-width: 375px) {
+    p {
+      text-align: center;
+    }
   }
 `;

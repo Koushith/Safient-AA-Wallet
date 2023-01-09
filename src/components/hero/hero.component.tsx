@@ -8,7 +8,9 @@ import { Navbar } from "../navbar/navbar.component";
 export const HeroSection = () => {
   return (
     <HeroSectionContainer>
-      <div className="navbar">{/* <Navbar /> */}</div>
+      <div className="navbar">
+        <Navbar />
+      </div>
 
       <Container>
         <div className="cta-container">

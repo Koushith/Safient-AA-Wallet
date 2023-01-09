@@ -10,7 +10,6 @@ export const HeroSectionContainer = styled.header`
   background-size: cover; /* Resize the background image to cover the entire container */
   height: 100vh;
   width: 100%;
-  background-color: red;
 
   .navbar {
     padding-top: 3rem;
@@ -121,9 +120,10 @@ export const HeroSectionContainer = styled.header`
     }
     p {
       text-align: initial !important;
-      color: red;
     }
-
+    br {
+      display: none;
+    }
     .hero-image {
       display: none;
     }

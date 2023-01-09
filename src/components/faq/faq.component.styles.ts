@@ -16,6 +16,7 @@ export const GridContainer = styled.div`
   margin-top: 56px;
   justify-content: space-between;
   row-gap: 60px;
+
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 30px;

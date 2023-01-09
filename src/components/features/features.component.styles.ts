@@ -92,4 +92,10 @@ export const Features = styled.div`
     color: #334155;
     text-align: initial;
   }
+
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 `;

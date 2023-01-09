@@ -10,8 +10,26 @@ import How from "../../assets/how.png";
 import Mobile from "../../assets/icons/mobile.svg";
 
 export const HowItWorks = () => {
+  const steps = [
+    {
+      title: "Own It",
+      description:
+        "Really do. Protect your assets from banks and businesses going, well, out of business",
+    },
+    {
+      title: "Own It",
+      description:
+        "Really do. Protect your assets from banks and businesses going, well, out of business",
+    },
+    {
+      title: "Own It",
+      description:
+        "Really do. Protect your assets from banks and businesses going, well, out of business",
+    },
+  ];
+
   return (
-    <HowConatiner>
+    <HowConatiner id="how">
       <Container>
         <div className="heading-container">
           <h2 className="heading">
@@ -29,35 +47,14 @@ export const HowItWorks = () => {
           <img src={How} alt="how" className="how-img" />
 
           <div className="steps">
-            <StepsContainer>
-              <img src={Mobile} alt="steps" />
+            {steps.map((s) => (
+              <StepsContainer>
+                <img src={Mobile} alt="steps" />
 
-              <h2>Own It</h2>
-              <p>
-                Really do. Protect your assets from banks and businesses going,
-                well, out of business
-              </p>
-            </StepsContainer>
-
-            <StepsContainer>
-              <img src={Mobile} alt="steps" />
-
-              <h2>Own It</h2>
-              <p>
-                Really do. Protect your assets from banks and businesses going,
-                well, out of business
-              </p>
-            </StepsContainer>
-
-            <StepsContainer>
-              <img src={Mobile} alt="steps" />
-
-              <h2>Own It</h2>
-              <p>
-                Really do. Protect your assets from banks and businesses going,
-                well, out of business
-              </p>
-            </StepsContainer>
+                <h2>{s.title}</h2>
+                <p>{s.description}</p>
+              </StepsContainer>
+            ))}
           </div>
         </HowItWorksContainer>
       </Container>

@@ -108,6 +108,12 @@ export const StepsContainer = styled.div`
     color: #a3a3a3;
   }
 
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
   /* mobile */
   @media (max-width: 320px) {
     padding: 2rem;
