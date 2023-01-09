@@ -26,7 +26,7 @@ export const HowItWorks = () => {
         </div>
 
         <HowItWorksContainer>
-          <img src={How} alt="how" />
+          <img src={How} alt="how" className="how-img" />
 
           <div className="steps">
             <StepsContainer>

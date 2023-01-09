@@ -24,6 +24,28 @@ export const FeaturesSectionContainer = styled.section`
     margin-top: 10px;
     color: #334155;
   }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    .heading {
+      font-size: 36px;
+      line-height: 40px;
+      text-align: inherit;
+    }
+
+    .sub-heading {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: inherit;
+    }
+    br {
+      display: none;
+    }
+  }
+
+  @media (max-width: 375px) {
+    padding: 0 2rem;
+  }
 `;
 
 export const FeaturesWrapper = styled.div`
@@ -31,6 +53,18 @@ export const FeaturesWrapper = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   margin: 120px 0px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 375px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
 `;
 
 export const Features = styled.div`

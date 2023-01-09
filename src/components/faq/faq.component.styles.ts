@@ -4,6 +4,7 @@ import { ConteintHeading } from "../primitives/text/text.component.styles";
 
 export const FaqContainer = styled.section`
   margin-bottom: 120px;
+  padding: 20px;
 `;
 
 export const GridContainer = styled.div`
@@ -15,6 +16,18 @@ export const GridContainer = styled.div`
   margin-top: 56px;
   justify-content: space-between;
   row-gap: 60px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 375px) {
+    /* padding: 0 2rem; */
+    margin-top: 30px;
+  }
 `;
 
 export const FaqHeading = styled(ConteintHeading)`

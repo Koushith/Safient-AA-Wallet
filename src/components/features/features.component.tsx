@@ -11,8 +11,8 @@ export const FeaturesSection = () => {
   return (
     <FeaturesSectionContainer>
       <Container>
-        <h2>Now is the time to build your portfolio.</h2>
-        <p>
+        <h2 className="heading">Now is the time to build your portfolio.</h2>
+        <p className="sub-heading">
           With typical market returns, you have to start young to secure your
           future. With Pocket,
           <br /> it’s never too late to build your nest egg.

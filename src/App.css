@@ -4,7 +4,31 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  font-size: 10px;
+}
+
+/* export const breakPoints = {
+  sm: "640px",
+  md: "768px",
+  lg: "1024px",
+}; */
+
+/* tab */
+@media (max-width: 768px) {
+  /* html {
+    font-size: 1px;
+    color: red;
+  } */
+}
+
+/* mobile */
+@media (max-width: 320px) {
+  /* html {
+    font-size: 45%;
+  } */
 }

@@ -15,9 +15,9 @@ function App() {
       <HowItWorks />
       <FeaturesSection />
       <CTASection />
-      <Container>
-        <FaqSection />
-      </Container>
+
+      <FaqSection />
+
       <Footer />
     </>
   );
