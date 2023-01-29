@@ -88,6 +88,7 @@ export const HeroSectionContainer = styled.header`
     .cta-container {
       flex-direction: column;
       padding: 4rem;
+      margin-top: 150px;
     }
 
     h1 {
@@ -97,8 +98,15 @@ export const HeroSectionContainer = styled.header`
     }
 
     .hero-image {
-      order: 1 !important;
-      overflow: hidden !important;
+      display: none;
+    }
+
+    .waitlist-form {
+      flex-direction: column;
+
+      input {
+        width: 100%;
+      }
     }
   }
 

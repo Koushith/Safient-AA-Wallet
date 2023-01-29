@@ -53,6 +53,24 @@ export const NavbarContainer = styled.div`
     display: none;
   }
 
+  @media (max-width: 750px) {
+    padding: 0 2rem;
+    nav {
+      display: none;
+    }
+
+    .mobile-nav {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      img {
+        height: 34px;
+        width: 34px;
+      }
+    }
+  }
+
   @media (max-width: 375px) {
     padding: 0 2rem;
     nav {
