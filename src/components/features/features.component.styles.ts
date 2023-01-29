@@ -61,8 +61,9 @@ export const FeaturesWrapper = styled.div`
     margin-top: 60px;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 450px) {
     grid-template-columns: 1fr;
+
     gap: 20px;
     margin-top: 20px;
   }
