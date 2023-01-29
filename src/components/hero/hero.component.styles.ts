@@ -110,7 +110,7 @@ export const HeroSectionContainer = styled.header`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 450px) {
     .cta-container {
       flex-direction: column;
       padding: 2rem !important;
@@ -123,7 +123,8 @@ export const HeroSectionContainer = styled.header`
     }
 
     h1 {
-      font-size: 3.6rem !important;
+      font-size: 3.4rem !important;
+      color: red;
       line-height: 4rem !important;
       text-align: initial;
     }
