@@ -44,7 +44,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
 # Safient-AA-Wallet
-
-![image](https://user-images.githubusercontent.com/30016242/215328565-c79111b4-9a4f-49a0-aa7f-9378f060f0b2.png)
-

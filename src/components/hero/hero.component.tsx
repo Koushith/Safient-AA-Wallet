@@ -17,7 +17,7 @@ export const HeroSection = () => {
           <div className="content">
             <h1>The fastest crypto experience, ever!</h1>
             <p>
-              Candide is an Ethereum wallet build as a public good. <br />
+              SE Wallet is an Ethereum wallet build as a public good. <br />
               Join our waiting list and be the first to try out our Beta
             </p>
 
