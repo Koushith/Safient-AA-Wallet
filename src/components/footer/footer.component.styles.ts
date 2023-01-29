@@ -37,11 +37,11 @@ export const FooterContainer = styled.footer`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     .footer-section {
       align-items: center;
       justify-content: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
     nav {
       display: flex;
@@ -102,7 +102,7 @@ export const CopyRightContainer = styled.div`
     color: #334155;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     p {
       text-align: center;
     }

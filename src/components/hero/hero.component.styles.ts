@@ -124,12 +124,13 @@ export const HeroSectionContainer = styled.header`
 
     h1 {
       font-size: 3.4rem !important;
-      color: red;
+
       line-height: 4rem !important;
       text-align: initial;
     }
     p {
       text-align: initial !important;
+      margin-top: 1rem !important;
     }
     br {
       display: none;
