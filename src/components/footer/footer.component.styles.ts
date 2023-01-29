@@ -37,7 +37,7 @@ export const FooterContainer = styled.footer`
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 300px) {
     .footer-section {
       align-items: center;
       justify-content: center;
